@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotación</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="fondo">
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../movimiento_uniforme/movimento_uniforme.html">Movimiento uniforme</a>
+        <a href="../Movimiento_uniformemente_variado/Movimiento_uniformemente_variado.html">Movimiento uniforme variado</a>
+        <a href="../Caída_libre/Caída_libre.HTML">Caida libre</a>
+        <a href="../Tiro_parabolico/Tiro_parabolico.HTML">Tiro parabolico</a>
+        <a href="../Translacion/Translacion.html">Translacion</a>
+        <a href="../Rotacion/Rotacion.html">Rotación</a>
+        <a href="../VELOCIDAD_DE_UN_OBJETO_EN_EL_PLANO/VELOCIDAD_DE_UN_OBJETO_EN_EL_PLANO.html">VELOCIDAD DE UN OBJETO EN EL PLANO</a>
+        <a href="../MOVIMIENTO_EN_EL_PLANO(Posición)/MOVIMIENTO_EN_EL_PLANO(Posición).html">MOVIMIENTO EN EL PLANO(Posición)</a>
+        <a href="../MOVIMIENTO_EN_EL_PLANO(Velocidad)/MOVIMIENTO_EN_EL_PLANO(Velocidad).html">MOVIMIENTO EN EL PLANO(Velocidad)</a>
+    </nav>
+    <div>
+        <h1>Rotación</h1>
+      
+        <h2>Formula de la Rotación:</h2>
+        <p>θ(t) = θo + w * t</p>
+            <fieldset>
+                θo <input type="number" id="θo_1">
+                w <input type="number" id="w_1">
+                t <input type="number" id="t_1">
+                <button type="button" onclick="Formula_1(
+                    document.getElementById('θo_1').value,
+                    document.getElementById('w_1').value,
+                    document.getElementById('t_1').value)">Calcular</button>
+                    <div class="resultado" id="Formula_1"></div>
+            </fieldset>
+            
+        <script src="Rotacion.js"></script>
+    </div>
+</body>
+</html>

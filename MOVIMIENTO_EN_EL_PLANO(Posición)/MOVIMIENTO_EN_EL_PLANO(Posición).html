@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOVIMIENTO EN EL PLANO(Posición)</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="fondo">
+    <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="../movimiento_uniforme/movimento_uniforme.html">Movimiento uniforme</a>
+        <a href="../Movimiento_uniformemente_variado/Movimiento_uniformemente_variado.html">Movimiento uniforme variado</a>
+        <a href="../Caída_libre/Caída_libre.HTML">Caida libre</a>
+        <a href="../Tiro_parabolico/Tiro_parabolico.HTML">Tiro parabolico</a>
+        <a href="../Translacion/Translacion.html">Translacion</a>
+        <a href="../Rotacion/Rotacion.html">Rotación</a>
+        <a href="../VELOCIDAD_DE_UN_OBJETO_EN_EL_PLANO/VELOCIDAD_DE_UN_OBJETO_EN_EL_PLANO.html">VELOCIDAD DE UN OBJETO EN EL PLANO</a>
+        <a href="../MOVIMIENTO_EN_EL_PLANO(Posición)/MOVIMIENTO_EN_EL_PLANO(Posición).html">MOVIMIENTO EN EL PLANO(Posición)</a>
+        <a href="../MOVIMIENTO_EN_EL_PLANO(Velocidad)/MOVIMIENTO_EN_EL_PLANO(Velocidad).html">MOVIMIENTO EN EL PLANO(Velocidad)</a>
+    </nav>
+    <div>
+        <h1>MOVIMIENTO EN EL PLANO(Posición)</h1>
+        
+    
+        <h2>Formula del MOVIMIENTO EN EL PLANO(Posición):</h2>
+        <img src="../assets/MOVIMIENTO_EN_EL_PLANO(Posición).jpg"><img/>
+            <fieldset>
+                x0&nbsp;<input type="number" id="x0_1"><br><br>
+                y0&nbsp;<input type="number" id="y0_1"><br><br>
+                Vx0&nbsp;<input type="number" id="Vx0_1"><br><br>
+                Vy0&nbsp;<input type="number" id="Vy0_1"><br><br>
+                ax&nbsp;<input type="number" id="ax_1"><br><br>
+                ay&nbsp;<input type="number" id="ay_1"><br><br>
+                t&nbsp;<input type="number" id="t_1"><br><br>
+                <button type="button" onclick="Formula_1(
+                    document.getElementById('x0_1').value,
+                    document.getElementById('y0_1').value,
+                    document.getElementById('Vx0_1').value,
+                    document.getElementById('Vy0_1').value,
+                    document.getElementById('ax_1').value,
+                    document.getElementById('ay_1').value,
+                    document.getElementById('t_1').value)">Calcular</button>
+                <div class="resultado" id="Formula_1"></div>
+            </fieldset>
+
+        <script src="MOVIMIENTO_EN_EL_PLANO(Posición).js"></script>
+    </div>
+</body>
+</html>
